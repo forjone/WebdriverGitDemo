@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite" parallel="methods" thread-count="4">
+  <test name="WebDriver1_demo">
+    <classes>
+      <class name="com.demo.day1.TestCase">
+
+        <!--<methods>-->
+          <!--<include name="btest1"/>-->
+        <!--</methods>-->
+      </class> <!-- com.demo.day1.TestCase -->
+      <class name="com.demo.day1.BrowserOperation"></class>
+    </classes>
+  </test> <!-- WebDriver1_demo -->
+</suite> <!-- Default Suite -->
