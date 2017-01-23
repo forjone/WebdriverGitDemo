@@ -28,8 +28,24 @@
             <version>1.3.0</version>
         </dependency>
     </dependencies>
+<!--插件配置-->
+    <build>
+        <plugins>
+            <!--编译插件，控制输出和执行的JDK脚本-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.3</version>
+                <inherited>true</inherited>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>utf-8</encoding>
+                </configuration>
 
-
+            </plugin>
+        </plugins>
+    </build>
 
 
 </project>
