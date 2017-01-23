@@ -1,8 +1,7 @@
-package com.demo.Day5;
+package com.demo.day5;
 
 import com.demo.day3.BrowserOpenClose;
 import com.demo.day7.PageObject.CreateUserObject;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
