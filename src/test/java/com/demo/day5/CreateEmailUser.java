@@ -60,7 +60,7 @@ public class CreateEmailUser extends BrowserOpenClose {
         WebElement msgErrorRemindElement1 = driverChrome.findElement(CreateUserObject.checkElement);
         String errorRemind = msgErrorRemindElement1.getText().trim();  //.trim表示忽略空格
         System.out.println("对象提示信息 : " + errorRemind);
-        Assert.assertEquals(errorRemind,"手机验证码不正确，请重新填写");
+        Assert.assertEquals(errorRemind,"手机验证码不正确，请重新填写 ");
 //        WebElement msgRemindElement = DriverChrome.findElement(By.xpath(".//*[@id='conflictTitle']"));
 //        String msgRemind = msgRemindElement.getAttribute("innerHTML");
 //        System.out.println("对象提示信息 : " + msgRemind);
