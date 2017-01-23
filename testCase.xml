@@ -9,7 +9,7 @@
           <!--<include name="btest1"/>-->
         <!--</methods>-->
       </class> <!-- com.demo.day1.TestCase -->
-      <class name="com.demo.day1.BrowserOperation"></class>
+      <class name="com.demo.day5.CreateEmailUser"></class>
     </classes>
   </test> <!-- WebDriver1_demo -->
 </suite> <!-- Default Suite -->
