@@ -19,11 +19,11 @@
       |test1 | pwd1 |
       |test2 | pwd2 |
       |test3 | pwd3 |
-
+    @P0
     场景: 搜索selenium
       当搜索框输入"selenium"搜索
       那么 打开搜索页面
-
+    @P0
     场景: 163邮箱登录
       当我打开"http://mail.163.com/"页面
       而且输入帐号"dreamingxuanyu"，密码"forjone1226"

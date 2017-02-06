@@ -13,7 +13,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 /**
  * Created by thinkpad on 2017/1/24.
  */
-public class Steps {
+public class TestSteps {
     WebDriver driver;
     @假如("^我用正确的帐号\"test1\"登录系统$")
     public void loginTest() {
