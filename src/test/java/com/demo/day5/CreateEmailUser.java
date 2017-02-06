@@ -11,6 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Created by thinkpad on 2017/1/10.
+ * 新建邮箱账户
  */
 public class CreateEmailUser extends BrowserOpenClose {
 
