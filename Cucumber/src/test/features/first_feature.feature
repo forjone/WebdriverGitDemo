@@ -19,6 +19,7 @@
       |test1 | pwd1 |
       |test2 | pwd2 |
       |test3 | pwd3 |
+
     @P0
     场景: 搜索selenium
       当搜索框输入"selenium"搜索
