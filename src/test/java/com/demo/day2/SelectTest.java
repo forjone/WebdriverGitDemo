@@ -49,7 +49,18 @@ public class SelectTest {
 
     }
 
+    @Test
+    public void audioOption() throws InterruptedException {
+        Driver.get("file:///E:/selenium_test/selenium_html/index.html");
+        WebElement audioElement = Driver.findElement(By.xpath(".//*[@id='radio']/input[3]"));
+        WebElement checkBoxElement = Driver.findElement(By.xpath(".//*[@id='checkbox']/input[1]"));
+        WebElement checkBoxElement1 = Driver.findElement(By.xpath(".//*[@id='checkbox']/input[3]"));
+       audioElement.click();
+        checkBoxElement.click();
+        checkBoxElement1.click();
+       Thread.sleep(3000);
 
+    }
 
 
 
